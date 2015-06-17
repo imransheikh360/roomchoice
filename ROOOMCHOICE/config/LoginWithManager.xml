@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5"  verbose="1" name="LoginWithManager" annotations="JDK">
+    <test name="LoginWithManager" junit="false" preserve-order="true">
+	<classes>
+            <class name="com.roomchoice.TestScripts.LoginWithManager">
+            	<methods>
+            		<include name="LoginWithManager"/>					
+	         	</methods>
+            </class>
+        </classes>
+    </test>
+</suite> 

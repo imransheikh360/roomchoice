@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="all" parallel="methods">
+	<suite-files>
+
+
+		<suite-file path="UserLogin.xml"></suite-file>
+		<suite-file path="VerifyOwnedVideoByMe.xml"></suite-file> 
+		<suite-file path="VerifySharedVideoWithMe.xml"></suite-file>
+		<suite-file path="VerifySupervisedUserVideoWithMe.xml"></suite-file>
+	
+
+		<suite-file path="VerifyChangeOwnerOfVideoOwnedByMe.xml"></suite-file>
+		<suite-file path="VerifyChangeOwnerOfVideoSupervisedByMe.xml"></suite-file>
+		<suite-file path="VerifyChangeOwnerOfAnyVideo.xml"></suite-file>
+
+		<suite-file path="VerifyVideoRestrictedOwnedByMe.xml"></suite-file>
+		<suite-file path="VerifyVideoRestrictedSupervisedWithMe.xml"></suite-file>
+		<suite-file path="VerifyVideoRestrictedSharedWithMe.xml"></suite-file>
+		<suite-file path="VerifyAnyVideoRestricted.xml"></suite-file>
+
+
+		<suite-file path="CreateIncident.xml"></suite-file>
+		<suite-file path="VerifyIncidentSharedWithMe.xml"></suite-file>
+		<suite-file path="VerifyIncidentSupervisedByMe.xml"></suite-file>
+
+ 
+		<suite-file path="VerifyChangeOwnerOfAnyIncident.xml"></suite-file>
+		<suite-file path="VerifyChangeOwnerOfIncidentOwnedByMe.xml"></suite-file>
+		<suite-file path="VerifyChangeOwnerOfIncidentSharedWithMe.xml"></suite-file>
+		<suite-file path="VerifyChangeOwnerOfIncidentSupervisedByMe.xml"></suite-file>
+
+
+		<suite-file path="EditIncidentOwnedByMe.xml"></suite-file>
+		<suite-file path="EditIncidentSharedWithMe.xml"></suite-file>
+		<suite-file path="EditIncidentSupervisedByMe.xml"></suite-file>
+		<suite-file path="EditAnyIncident.xml"></suite-file>
+
+
+		<suite-file path="DeleteIncidentOwnedByMe.xml"></suite-file>
+		<suite-file path="ReinstateDeletedIncidentOwnedByMe.xml"></suite-file>
+		<suite-file path="ReinstateDeletedIncidentSharedWithMe.xml"></suite-file>
+		<suite-file path="ReinstateDeletedIncidentSupervisedByMe.xml"></suite-file>
+		<suite-file path="ReinstateAnyDeletedIncident.xml"></suite-file>
+
+
+		<suite-file path="ViewAuditLogIncidentSharedWithMe.xml"></suite-file>
+		<suite-file path="ViewAuditLogForAnyIncident.xml"></suite-file>
+		<suite-file path="ViewDeleteExportedIncidentCreatedByMe.xml"></suite-file>
+		<suite-file path="ViewDeleteExportedIncidentSupervisedByMe.xml"></suite-file>
+		<suite-file path="ViewDeleteExportedAnyIncident.xml"></suite-file>
+		
+		<suite-file path="ExportIcidentSharedWithMe.xml"></suite-file>
+		<suite-file path="ListDeleteIncidentSharedWithMe.xml"></suite-file>
+		<suite-file path="ListDeleteIncidentSupervisedByMe.xml"></suite-file>
+
+
+		<suite-file path="VerifyChangeOwnerOfSharedVideo.xml"></suite-file>
+		<suite-file path="VerifySharedVideoSharedWithMe.xml"></suite-file>
+		<suite-file path="VerifySharedVideosSuperviseByMe.xml"></suite-file>
+		<suite-file path="VerifyShareAnyvideo.xml"></suite-file>
+
+
+		<suite-file path="VerifyViewAuditLogsForVideosOwnedByMe.xml"></suite-file>
+		<suite-file path="VerifyViewAuditLogsForVideosSharedWithMe.xml"></suite-file>
+		<suite-file path="VerifyViewAuditLogsForVideosSupervisedByMe.xml"></suite-file>
+		<suite-file path="VerifyAuditLogsForAnyVideos.xml"></suite-file>
+		<suite-file path="VerifyDisplayAuditLogOfRestrictedVideos.xml"></suite-file>
+			
+<!-- 
+		<suite-file path="VerifyPlayVideoOwnedByMe.xml"></suite-file>
+		<suite-file path="VerifyPlayVideoSharedWithMe.xml"></suite-file>
+		<suite-file path="VerifyPlayAnyVideo.xml"></suite-file>
+		<suite-file path="VerifyPlayRestrictedVideos.xml"></suite-file>
+ 	
+
+		<suite-file path="VerifyListOfDeletedVideosOwnedByMe.xml"></suite-file>
+		<suite-file path="VerifyViewListOfDeletedVideosSharedWithMe.xml"></suite-file>
+		<suite-file path="VerifyViewListOfDeletedVideosSupervisedByMe.xml"></suite-file>
+		<suite-file path="VerifyViewListOfAllDeletedVideo.xml"></suite-file>
+	
+
+		<suite-file path="VerifyAddVideosOwnedByMeToIncident.xml"></suite-file>
+		
+		<suite-file path="VerifyAddVideoToSharedWithMeIncident.xml"></suite-file>
+		<suite-file path="VerifyAddVideoToSupervisedByIncidnet.xml"></suite-file>
+		<suite-file path="VerifyAddAnyVideoToIncident.xml"></suite-file>
+		<suite-file path="VerifyAddRestrictedVideoToIncident.xml"></suite-file>
+	
+
+		<suite-file path="VerifyShareIncidentsSharedWithMe.xml"></suite-file>
+		<suite-file path="VerifyShareIncidnetSupervisedByMe.xml"></suite-file>
+		<suite-file path="VerifyShareAnyIncident.xml"></suite-file>
+		
+
+		<suite-file path="VerifyPlayClipsOfIncidentOwnedByMe.xml"></suite-file>
+		<suite-file path="VerifyPlayClipsOfIncidentSharedWithMe.xml"></suite-file>
+		<suite-file path="VerifyPlayClipsOfIncidentSupervisedByMe.xml"></suite-file>
+		<suite-file path="VeriyPlayClipsOfAnyIncident.xml"></suite-file>
+
+		<suite-file path="VerifyEditClipsOfOwnedByIncident.xml"></suite-file>
+		<suite-file path="VerifyEditClipsOfSharedWithMeIncident.xml"></suite-file>
+		<suite-file path="VerifyEditClipsOfSupervisedIncident.xml"></suite-file>
+		<suite-file path="VerifyEditClipsOfAnyIncident.xml"></suite-file>
+
+		<suite-file path="ViewAuditLogIncidentOwnedByMe.xml"></suite-file>
+		<suite-file path="VerifyReinstateDeletedVideosOwnedByMe.xml"></suite-file>
+		<suite-file path="VerifyReinstateDeletedVideosSharedWithMe.xml"></suite-file>
+		<suite-file path="VerifyReinstateDeletedVideosSupervisedByMe.xml"></suite-file>
+		<suite-file path="VerifyReinstateAnyDeletedVideo.xml"></suite-file>
+		<suite-file path="VerifyPermanentlyDeltevideosOwnedByMe.xml"></suite-file>
+		<suite-file path="VerifyPermanentlyDelteVideoSharedWithMe.xml"></suite-file>
+		<suite-file path="VerifyPermanentlyDeleteVideoSupervisedByMe.xml"></suite-file>
+		<suite-file path="VerifyPermanentlyDeleteAnyVideo.xml"></suite-file>
+		<suite-file path="VerifyListRestrictedVideo.xml"></suite-file> 
+	
+
+		
+		<suite-file path="TestAddUserWithEnabledOFF.xml"></suite-file>
+		<suite-file path="TestAddUserWithLoginOn.xml"></suite-file>
+		<suite-file path="TestAddUserWithNoPermission.xml"></suite-file>
+		<suite-file path="TestChangeRolesToAssignedUser.xml"></suite-file>
+		
+	 	<suite-file path="TestPermissionsOfExistingUsersRole.xml"></suite-file>
+		<suite-file path="TestPermissionsOfNewlyCreatedRoleUser.xml"></suite-file>
+		<suite-file path="TestRemoveRegularUserAtEditUserMode.xml"></suite-file>
+		<suite-file path="TestRemoveRegularUserAtUserList.xml"></suite-file>
+		
+		
+		<suite-file path="TestUserOnlyAddAlwdPeermission.xml"></suite-file>
+		<suite-file path="TestChangeManagerSettingOFF.xml"></suite-file>
+		<suite-file path="TestFilterByUserName.xml"></suite-file>
+		<suite-file path="TestFilterByRoleName.xml"></suite-file>
+
+		<suite-file path="TestForceChangePasswordFun.xml"></suite-file>
+		<suite-file path="TestChangeListOfAutoSharedUser.xml"></suite-file>
+		<suite-file path="TestChangeListOfSupervisedUser.xml"></suite-file>
+	
+		
+		<suite-file path="TestPlayVideoWithColorCode.xml"></suite-file>
+		<suite-file path="TestPlayClipWithStartEndTime.xml"></suite-file>
+		<suite-file path="TestPlayVideoRedactionFeature.xml"></suite-file>
+
+  -->
+
+	</suite-files>
+</suite> 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+
+   <Login>
+      <UserName><![CDATA[username]]></UserName>
+      <Password><![CDATA[password]]></Password>
+      <SignIn><![CDATA[//button[@type='submit']]]></SignIn>
+      <ValidationMessage><![CDATA[class=help-block]]></ValidationMessage>
+      <NoPermissionMsg><![CDATA[id=noPermissionLabel]]></NoPermissionMsg>
+      <EnabledOffValidation><![CDATA[id=badUserNamePasswordLabel]]></EnabledOffValidation>
+      
+      <NewPassword><![CDATA[id=newPassword]]></NewPassword>
+      <NewPasswordConfirm><![CDATA[id=newPasswordConfirm]]></NewPasswordConfirm>
+      <BlockUserValidation><![CDATA[class=help-block]]></BlockUserValidation>
+      
+   </Login>
+	 
+</Locators>

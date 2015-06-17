@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="allRoleWise" parallel="methods">
+	<suite-files>
+
+	    <suite-file path="TestCase001_VerifyUserUnableToLogin.xml"></suite-file>
+<!--		<suite-file path="TestCase002_VerifyUserUnableToViewOwnedImportedVideo.xml"></suite-file>
+		<suite-file path="TestCase003_VerifyUserUnableToPlaySharedVideo.xml"></suite-file>
+		<suite-file path="TestCase004_VerifyUserUnableToShareSupervisedVideo.xml"></suite-file>  
+ 		
+	    <suite-file path="TestCase005_UnableToChangeOwnerOfAnyVideo.xml"></suite-file>	
+		<suite-file path="TestCase006_UnableToMakeOwnedVideoAsRestrict.xml"></suite-file>
+		<suite-file path="TestCase007_UnableToViewAuditLogForSharedVideo.xml"></suite-file>
+		<suite-file path="TestCase008_UnableToAddIncidentOnOwnedVideo.xml"></suite-file>  
+		
+		<suite-file path="TestCase009_UnableToDelteTheSupervisedVideo.xml"></suite-file>	
+		<suite-file path="TestCase010_UnableToViewTheDeletedSharedVideo.xml"></suite-file>
+		<suite-file path="TestCase011_UnableToUndeleteAnyVideo.xml"></suite-file>
+		<suite-file path="TestCase012_UnableToPermanentlyDeleteOwnedVideo.xml"></suite-file> 
+		
+	    <suite-file path="TestCase013_UnableToUplaodTheVideo.xml"></suite-file>	
+		<suite-file path="TestCase014_UnableToPlayRestrictedVideo.xml"></suite-file>
+		<suite-file path="TestCase015_RestrictedUserDontHaveFullPermission.xml"></suite-file>
+		<suite-file path="TestCase016_UnableToViewAuditLogForRestrictedVideo.xml"></suite-file> 
+		
+		<suite-file path="TestCase017_UserUnableToAddRestrictedVideoToIncident.xml"></suite-file>	
+		<suite-file path="TestCase018_UserAutoShareTheFile.xml"></suite-file>
+		<suite-file path="TestCase019_UnableToCreateIncident.xml"></suite-file>
+		<suite-file path="TestCase020_UnableToViewOwnedIncident.xml"></suite-file>  
+		
+		<suite-file path="TestCase021_UnableToChangeOwnerOfSharedIncident.xml"></suite-file>
+		<suite-file path="TestCase022_UnableToShareSupervisedIncidnet.xml"></suite-file>
+		<suite-file path="TestCase023_UnableToEditAnyIncident.xml"></suite-file>		
+		<suite-file path="TestCase024_TestUnableToPlayVideoOfIncidentOwnedByMe.xml"></suite-file> 
+		
+	    <suite-file path="TestCase025_testUnableToEditClipSharedIncidentWithMe.xml"></suite-file>
+		<suite-file path="TestCase026_testUnableToExportSupervisedIncident.xml"></suite-file>
+		<suite-file path="TestCase027_testUnableToDeleteAnyIncident.xml"></suite-file>
+		<suite-file path="TestCase028_testUnableToUndeleteOwnedCreatedIncident.xml"></suite-file>  
+		
+		<suite-file path="TestCase029_testUnableToViewDeletedSharedIncident.xml"></suite-file>
+		<suite-file path="TestCase030_testUnableToViewAuditLogForSupervisedIncident.xml"></suite-file> 
+ -->
+	</suite-files>
+</suite> 

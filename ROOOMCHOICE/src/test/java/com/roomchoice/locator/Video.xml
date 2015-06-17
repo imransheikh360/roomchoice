@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+
+  <VideoDetails>   
+      <VideoOwnerName><![CDATA[class=col-sm-8]]></VideoOwnerName>
+      <NoVideoMsg><![CDATA[//div[contains(text(),'No videos found')]]]></NoVideoMsg>
+  </VideoDetails>	   
+      
+   <IndividualVideoDetails>
+      <MoreDetail><![CDATA[//a[contains(@class,'btn btn-default video-details')]]]></MoreDetail>
+      <ShareUser><![CDATA[name=shareWith]]></ShareUser>
+      <PlusButton><![CDATA[//span[@class='input-group-btn']/button[@type='button']]]></PlusButton>
+      <Cancel><![CDATA[class=col-sm-8]]></Cancel>
+      <!-- <ConfirmChange><![CDATA[//button[contains(text(),'Confirm Changes')]]]></ConfirmChange> -->
+      <ConfirmChange><![CDATA[//*[@id='sharing-region']/div/div/div[3]/button[2]]]></ConfirmChange>
+      <SharedUser><![CDATA[//span[contains(@class,'label')]]]></SharedUser>
+      <OwnereUser><![CDATA[name=owner]]></OwnereUser>
+      <SuggestedName><![CDATA[//strong[contains(@class, 'tt-highlight')]]]></SuggestedName>
+      <Restrictedbutton><![CDATA[//div[@class='toggle-group']/label[2]]]></Restrictedbutton> 
+      <RestrictedIcon><![CDATA[//div[@class='toggle-group']]]></RestrictedIcon>
+      <VideoRestMessage><![CDATA[//h4[contains(text(),'video is restricted')]]]></VideoRestMessage>
+      <CreateNewIncident><![CDATA[//button[@data-original-title='Create New Incident']]]></CreateNewIncident>
+     <VideoErrorMsg><![CDATA[class=pss-status-message]]></VideoErrorMsg>
+     
+      
+  </IndividualVideoDetails>    
+   
+   
+   <VideoHeader>
+      <Myvideo><![CDATA[link=My Videos]]></Myvideo>
+      <Sharedvideo><![CDATA[link=Shared Videos]]></Sharedvideo>
+      <SupervisedVideo><![CDATA[link=Supervised Videos]]></SupervisedVideo>
+      <Searchvideo><![CDATA[link=Search Videos]]></Searchvideo>
+      <DeleteVidoIcon><![CDATA[//button[@data-original-title='Delete Video']]]></DeleteVidoIcon>
+   </VideoHeader>
+   
+   <SharedVideo>
+     <OwnerName><![CDATA[//td[contains(text(),'Owner')]/following-sibling::td]]></OwnerName>
+   	 <RemoveSharedUserIcon><![CDATA[//span[contains(@class,'sharing-remove-tag')]]]></RemoveSharedUserIcon>
+   	 <OwnerTextField><![CDATA[name=owner]]></OwnerTextField>
+   	 <OwnerTextFieldDropdown><![CDATA[class=tt-highlight]]></OwnerTextFieldDropdown>
+   	 <SharedUserName><![CDATA[id=tags-region]]></SharedUserName> 
+   	 <OperatorName><![CDATA[//td[contains(text(),'Operator')]/following-sibling::td]]></OperatorName> 
+   </SharedVideo>
+   
+   <SupervisedVideo>   
+   
+     <ClickPlayBttn><![CDATA[//div[@class='pss-overlay']/div/i]]></ClickPlayBttn> 
+     
+   </SupervisedVideo>
+   
+   <SearchVideo>
+     <EarliestDateTextField><![CDATA[name=startTime]]></EarliestDateTextField>
+   	 <LatestDateTextField><![CDATA[name=Latest Date]]></LatestDateTextField>
+   	 <DeviceOperatorTextField><![CDATA[name=filterOperator]]></DeviceOperatorTextField>
+   	 <OwnerTextField><![CDATA[name=filterOwner]]></OwnerTextField>
+   	 <DeviceTextField><![CDATA[name=filterDevice]]></DeviceTextField>
+   	 <FindVideoButton><![CDATA[//button[@type='submit']]]></FindVideoButton>
+   	 <VideoOwnerUser5><![CDATA[//td[contains(text(),'testUser5')]/preceding-sibling::td]]></VideoOwnerUser5>
+   	 <VideoOwnerUser3><![CDATA[//td[contains(text(),'testUser3')]/preceding-sibling::td]]></VideoOwnerUser3>
+   	 <VideoOwnerUser1><![CDATA[//td[contains(text(),'testUser1')]/preceding-sibling::td]]></VideoOwnerUser1>
+   	 <VideoOwnerUser6><![CDATA[//td[contains(text(),'testUser6')]/preceding-sibling::td]]></VideoOwnerUser6>
+   	 <VideoOwnerUser2><![CDATA[//td[contains(text(),'testUser2')]/preceding-sibling::td]]></VideoOwnerUser2>
+   	 <IncludeDeletedVideo><![CDATA[id=filterIncludeDeleted]]></IncludeDeletedVideo>
+   	 <OnlyDeletedVideo><![CDATA[id=filterOnlyDeleted]]></OnlyDeletedVideo>
+   	 <OwnereUserAtSearch><![CDATA[name=filterOwner]]></OwnereUserAtSearch>
+  	 <DeleteYes><![CDATA[//div[@class='modal-footer']/button[contains(text(),'yes')]]]></DeleteYes>
+	 <DeleteNo><![CDATA[//div[@class='modal-footer']/button[contains(text(),'no')]]]></DeleteNo>
+	 <SuggestedNameSearch><![CDATA[//strong[contains(@class, 'tt-highlight')]]]></SuggestedNameSearch>
+	 <ErrorPopUp><![CDATA[//div[@class='modal-content']/div]]></ErrorPopUp>
+	 <NoVideoMessage><![CDATA[id=videoLoadErrorMessage]]></NoVideoMessage>
+ </SearchVideo>
+   
+    <VideoAction>
+     <ViewVideoAuditLog><![CDATA[//a[contains(@class,'btn video-audit-log')]]]></ViewVideoAuditLog>   
+   </VideoAction>
+   
+   <VideoPlayScreen>
+     <ClickPlayBttn><![CDATA[//div[@class='pss-overlay']/div/i]]></ClickPlayBttn> 
+     <ClickPlayPauseBttn><![CDATA[//button[contains(@class,'btn js-play-pause')]]]></ClickPlayPauseBttn>
+     <GetStartTimeOfVideo><![CDATA[//span[contains(@class,'position')]]]></GetStartTimeOfVideo>  
+      <NoPermission><![CDATA[//div[@class='pss-overlay']/p]]></NoPermission>    
+   </VideoPlayScreen>
+   
+   <IncidentDetails>
+     <IncidentMoreDetail><![CDATA[//a[contains(@class,'btn btn-default video-manage-incident')]]]></IncidentMoreDetail>
+   </IncidentDetails>   
+   
+   <RestrictedVideoPopUp> 
+     <ClickOnContinue><![CDATA[//div[@class='modal-footer']/button[contains(text(),'continue')]]]></ClickOnContinue>
+	 <ClickOnCancel><![CDATA[//div[@class='modal-footer']/button[contains(text(),'cancel')]]]></ClickOnCancel> 
+   </RestrictedVideoPopUp> 
+   
+</Locators>

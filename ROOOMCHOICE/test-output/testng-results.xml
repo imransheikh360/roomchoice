@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9865" started-at="2015-06-17T09:13:30Z" finished-at="2015-06-17T09:13:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9865" started-at="2015-06-17T09:13:30Z" finished-at="2015-06-17T09:13:39Z">
+      <class name="com.roomchoice.TestScripts.LoginWithManager">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.roomchoice.TestScripts.LoginWithManager@24f454e4]" name="setUp" is-config="true" duration-ms="41556" started-at="2015-06-17T14:42:48Z" finished-at="2015-06-17T14:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginWithManager()[pri:0, instance:com.roomchoice.TestScripts.LoginWithManager@24f454e4]" name="loginWithManager" duration-ms="9835" started-at="2015-06-17T14:43:30Z" finished-at="2015-06-17T14:43:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithManager -->
+        <test-method status="PASS" signature="afterMainMethod()[pri:0, instance:com.roomchoice.TestScripts.LoginWithManager@24f454e4]" name="afterMainMethod" is-config="true" duration-ms="1909" started-at="2015-06-17T14:43:39Z" finished-at="2015-06-17T14:43:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+      </class> <!-- com.roomchoice.TestScripts.LoginWithManager -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

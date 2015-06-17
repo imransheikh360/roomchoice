@@ -1,0 +1,49 @@
+apply plugin: 'java'
+apply plugin: 'groovy'
+defaultTasks 'clean', 'test'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {	
+    compile 'com.google.guava:guava:15.0'
+    compile 'org.testng:testng:6.8.7'   
+    compile 'dom4j:dom4j:1.6.1'
+    compile 'org.seleniumhq.selenium:selenium-server:2.45.0'
+    compile 'jaxen:jaxen:1.1.6'
+    compile 'javax.ws.rs:javax.ws.rs-api:2.0-m10'
+    compile 'org.slf4j:slf4j-api:1.7.12'
+    compile 'org.apache.cxf:cxf-rt-bindings-soap:3.1.1'
+    compile 'org.apache.cxf:cxf-rt-core:2.7.16'
+    compile 'org.apache.cxf:cxf-rt-frontend-jaxrs:3.1.1'
+    compile 'org.apache.cxf:cxf-rt-transports-http:3.1.1'
+    compile 'com.opera:operadriver:1.5'
+    compile 'org.apache.cxf:cxf-rt-core:2.7.11'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'wsdl4j:wsdl4j:1.6.3'
+   
+    //compile 'io.appium:java-client:2.0.0'
+}
+
+
+jar {
+    manifest.attributes(
+            // Class-Path won't contain "guava-15.0.jar"
+            'Class-Path': configurations.runtime.files.collect { it.name }.join(' ')
+    )
+}
+
+//String suiteName = project.property("Suite")
+//System.out.println(project.property("Suite"))
+//System.out.println(project.property("Name"))
+
+test {	
+    useTestNG() 
+    {   
+        //options.suites ('src/test/resources/config/'+suiteName+'.xml') 
+		options.suites ('config/LoginWithManager.xml') 
+    }   
+    
+}  
+   
