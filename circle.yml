@@ -9,6 +9,8 @@ dependencies:
     #- bundle install: # note ':' here
     #   timeout: 180 # fail iff command has no output for 3 minutes
 
+general:
+  build_dir: ROOOMCHOICE
 
 ## Customize test commands
 test:
