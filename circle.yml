@@ -5,9 +5,9 @@ dependencies:
 
 
   override:
-    - bundle config build.nokogiri --use-system-libraries
-    - bundle install: # note ':' here
-        timeout: 180 # fail iff command has no output for 3 minutes
+    #- bundle config build.nokogiri --use-system-libraries
+    #- bundle install: # note ':' here
+    #   timeout: 180 # fail iff command has no output for 3 minutes
 
 
 ## Customize test commands
